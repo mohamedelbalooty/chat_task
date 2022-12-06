@@ -1,0 +1,43 @@
+name: chat_task
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get_it: ^7.2.0
+  localize_and_translate: ^4.1.1
+  persistent_bottom_nav_bar: ^5.0.2
+  flutter_image_stack: ^0.0.6
+  flutter_screenutil: ^5.5.4
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/langs/
+    - assets/images/
+
+  fonts:
+    - family: Plus Jakarta
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-Regular.ttf
+    - family: AppIcons
+      fonts:
+        - asset: assets/fonts/AppIcons.ttf
